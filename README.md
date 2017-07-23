@@ -137,8 +137,7 @@ Grouping dataframe by activity and subject
 grouped_all_mean_std <- group_by(all_mean_std,activity,subject)
 ```
 
-Create dataframe with the average of each variable for each activity
-# and each subject
+Create dataframe with the average of each variable for each activity and each subject
 
 ```R
 average_grouped_all_mean_std <- summarise_all(grouped_all_mean_std,mean)
